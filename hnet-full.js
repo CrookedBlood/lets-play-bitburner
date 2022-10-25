@@ -1,5 +1,5 @@
-import BasePlayer from "if.player";
 /** @param {NS} ns **/
+import BasePlayer from "if.player";
 export async function main(ns) {
 	let player = new BasePlayer(ns, "player");
 	let runtime = ns.args[0];
